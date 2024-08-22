@@ -1,0 +1,68 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: maroon;
+    
+    
+}
+body{
+    background-color: goldenrod;
+}
+footer{
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+    color: blue;
+}
+button[type=submit]{
+    border-radius: 10px;
+    margin-left: 100px;
+    border: solid;
+    width: 20vh;
+    font-size: 20px;
+    
+}
+
+
+input[type=bio]{
+    border: solid;
+    border-radius: 10px;
+    width: 40vh;
+    margin-left:450px;
+}
+input[type=file]{
+    border: solid;
+    border-radius: 10px;
+    width: 40vh;
+    margin-left:40px;
+}
+input[type=]{
+    border: solid;
+    border-radius: 10px;
+    width: 40vh;
+    margin-left:90px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-left: -80px;
+}
+label{
+    margin-left:80px;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+    align-items: center;
+}
+form{
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+textarea{
+    margin-top: 20px;
+}
+h3{
+    color: black;
+}

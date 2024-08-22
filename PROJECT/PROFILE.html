@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>UNIVERSITY SOCIAL NETWORKING WEB</title>
+    <link rel="stylesheet" href="MYSTYLE.css">
+    </head>
+    <body>
+        <h1>UNIVERSITY SOCIAL NETWORKING WEB</h1>
+        <h2>Edit profile</h2><br>
+
+        <form>
+        <form action="submit-profile.php" method="post"enctype="multipart/form-data>
+            <div>
+                <label for="profilePic">Profile Picture:</label>
+        
+                <input type="file" id ="profilePic"name="profilePic"Accept="image/>
+            </div>
+            <div>
+                <label for="bio">BIO</label><br>
+                <textarea id="bio"name="bio"rows="4"cols="50"></textarea>
+            </div>
+            <div>
+                <button type="submit">save Profile</button>    
+            </div>
+        </form>
+            
+       
+        <h2>Create a Post</h2><br>
+        <form action="submit-post.php"method="post"enctype="multipart/form-data> 
+            <div>
+                <label for="content">CONTENT</label>
+                <textarea id="content" name="content"rows="10" cols="50" required></textarea>
+                <div>
+                    <label for="postfile">Attach File:</label>
+                    <input type="file" id="postfile" name="postfile" accept="image/,application/"pdf>
+                </div>
+           <div>
+            <button type="submit">Post</button>
+           </div>
+            
+        </form>
+        </form>
+        <footer>
+            <p>University social networking web @ 2024</p>
+        </footer>
+    </body>
+</html>
